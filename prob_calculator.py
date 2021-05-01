@@ -9,7 +9,7 @@ class Hat:
     def _set_content(self, balls=None):
 
         if not balls:
-            return ["red"]
+            return ["joker"]
 
         cont = []
         for ballColour, amount in balls.items():
